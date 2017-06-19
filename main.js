@@ -33,20 +33,6 @@ $("document").ready(function() {
 
 
 
-// 	quoteBtn.on("click", function() {
-// 		$.ajax({
-// 			headers: {"X-Mashape-Key": "pc5WtyP9MdmshQCnTjhROxZeUgJyp1mHb9Ojsn8Y5LAgQIhjdE"},
-// 			url: "https://andruxnet-random-famous-quotes.p.mashape.com/",
-// 			success: function(data) {
-// 				if (typeof updateQuote === 'function') {
-// 					updateQuote(data);
-// 				}
-// 			}
-// 			});
-// 		});
-
-
-
 }); // END OF JQUERY
 
 

@@ -20,7 +20,7 @@ $("document").ready(function() {
 
 	function getNewQuote() {
 		$.ajax({
-			headers: {"X-Mashape-Key": "pc5WtyP9MdmshQCnTjhROxZeUgJyp1mHb9Ojsn8Y5LAgQIhjdE"},
+			headers: {"X-Mashape-Key": "This is a secret key"},
 			url: "https://andruxnet-random-famous-quotes.p.mashape.com/",
 			success: function(data) {
 				if (typeof updateQuote === 'function') {
